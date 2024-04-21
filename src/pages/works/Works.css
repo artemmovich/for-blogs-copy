@@ -1,0 +1,14 @@
+.works {
+   padding-top: 15px;
+   padding-bottom: 83px;
+}
+.container {
+}
+.works__title {
+   font-size: 22px;
+   line-height: 60px;
+}
+
+@media (max-width: 760px) {
+  
+}

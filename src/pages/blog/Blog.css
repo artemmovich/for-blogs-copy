@@ -1,0 +1,23 @@
+.blog {
+   padding-top: 104px;
+   padding-bottom: 50px;
+}
+
+.blog__title {
+   font-size: 44px;
+   font-weight: 700;
+   padding-bottom: 55px;
+}
+
+@media (max-width: 760px) {
+   .blog {
+      padding-top: 24px;
+      padding-bottom: 50px;
+   }
+
+   .blog__title {
+      font-size: 30px;
+      font-weight: 700;
+      padding-bottom: 18px;
+   }
+}
