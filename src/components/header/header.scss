@@ -1,0 +1,115 @@
+.header__container {
+   max-width: 1000px;
+   margin: 0 auto;
+   padding: 0 10px;
+   overflow: hidden;
+ 
+   .header {
+     padding-top: 25px;
+ 
+     &__items {
+       display: flex;
+       align-items: end;
+       justify-content: flex-end;
+       gap: 15px;
+       font-weight: 700;
+       font-size: 20px;
+       color: #21243D;
+ 
+       &__item:active {
+         color: #FF6464;
+       }
+ 
+       &__item:hover {
+         color: blue;
+       }
+     }
+ 
+     &.open {
+       position: fixed;
+       z-index: 999;
+       width: 100%;
+       height: 100%;
+       top: 65px;
+       transform: translateX(-100%);
+       transition: 0.2s linear;
+       background-color: #fff;
+     }
+ 
+     @media (max-width: 760px) {
+       .burger-menu__wrapper {
+         display: flex;
+         justify-content: end;
+       }
+ 
+       &.open {
+         transform: translateX(0);
+       }
+ 
+       &__wrapper {
+         padding: 20px 0;
+       }
+ 
+       &__items {
+         flex-direction: column;
+         align-items: center;
+         gap: 50px;
+         font-size: 30px;
+         color: #FF6464;
+       }
+ 
+       &__item {
+         color: #FF6464;
+       }
+ 
+       &__burger-menu {
+         display: flex;
+         width: 40px;
+         height: 25px;
+         background-color: transparent;
+         flex-direction: column;
+         justify-content: space-between;
+ 
+         span {
+           z-index: 10;
+           height: 1.5px;
+           width: 100%;
+           background-color: black;
+         }
+ 
+         &.open::before {
+           transform: translate(9px, -2px) rotate(45deg);
+           transform-origin: left top;
+           top: 0px;
+           z-index: 120;
+         }
+ 
+         &.open::after {
+           transform: translate(-2px, -27px) rotate(-45deg);
+           transform-origin: right bottom;
+           z-index: 130;
+           bottom: 0px;
+         }
+ 
+         &.open span {
+           transform: scale(0);
+         }
+ 
+         &::before,
+         &::after {
+           top: 0;
+           bottom: 0;
+           content: "";
+           transition: 0.2s linear;
+           height: 2px;
+           background-color: black;
+         }
+ 
+         span :nth-child(1) {
+           transform: translateY(var(--translateY-1, 0)) rotate(var(--rotate-1, 0deg));
+         }
+       }
+     }
+   }
+ }
+ 

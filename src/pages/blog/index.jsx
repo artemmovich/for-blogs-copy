@@ -1,8 +1,8 @@
 
 
-import "./Blog.css"
+import "./Blog.scss"
 
-import BlogPost from "components/blogPost/blogPost";
+import BlogPost from "components/BlogPost";
 
 const Blog = () => {
    return (

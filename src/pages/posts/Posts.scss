@@ -1,0 +1,29 @@
+.posts {
+   padding-top: 15px;
+   padding-bottom: 32px;
+   background-color: #edf7fa;
+
+   &-top__wrapper {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 15px;
+   }
+
+   &__title {
+      font-size: 22px;
+   }
+
+   &__link {
+      color: #00a8cc;
+   }
+
+   &-bottom__wrapper {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+
+      @media (max-width: 760px) {
+         flex-direction: column;
+      }
+   }
+}

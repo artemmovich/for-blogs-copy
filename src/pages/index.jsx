@@ -3,9 +3,9 @@
 
 
 import React from 'react'
-import Intro from './intro/intro'
-import Posts from './posts/Posts'
-import Works from './works/Works'
+import Intro from './Intro'
+import Posts from './Posts'
+import Works from './Works'
 
 const Home = () => {
    return (

@@ -1,0 +1,30 @@
+.PostsCard {
+  background-color: #fff;
+  padding: 24px 21px 7px 27px;
+  &__wrapper {
+    padding: 24px 21px 7px 27px;
+  }
+
+  &__content {
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 26px;
+    padding-bottom: 23px;
+    line-height: 38px;
+
+    @media (max-width: 760px) {
+      font-size: 22px;
+    }
+  }
+
+  &__about {
+    font-size: 18px;
+    padding-bottom: 26px;
+
+    @media (max-width: 760px) {
+      font-size: 16px;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.footer {
+   padding-top: 53px;
+   padding-bottom: 54px;
+ 
+   &__wrapper {
+     max-width: 225px;
+     margin: 0 auto;
+   }
+ 
+   &__icons {
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 26px;
+   }
+ 
+   &__copyright {
+     font-size: 14px;
+   }
+ }
+ 

@@ -1,26 +1,26 @@
 .posts {
-   padding-top: 15px;
-   padding-bottom: 32px;
-   background-color: #EDF7FA;
+  padding-top: 15px;
+  padding-bottom: 32px;
+  background-color: #edf7fa;
 }
 .posts-top__wrapper {
-   display: flex;
-   justify-content: space-between;
-   margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
 }
 .posts__title {
-   font-size: 22px;
+  font-size: 22px;
 }
 .posts__link {
-  color: #00A8CC;
+  color: #00a8cc;
 }
-.posts-bottom__wrapper{
-   display: flex;
-   justify-content: space-between;
-   gap: 20px;
+.posts-bottom__wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }
 @media (max-width: 760px) {
-   .posts-bottom__wrapper{
-      flex-direction: column;
-   }
-}
+  .posts-bottom__wrapper {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=Posts.css.map */

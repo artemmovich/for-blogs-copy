@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import "./header.css"
+import "./header.scss"
 import React, { useEffect, useState } from 'react'
 
 
@@ -22,9 +22,9 @@ const Header = () => {
 
   return (
     <header className="header__wrapper">
-      <div className="first__container">
-        <div className="burger-menu__wrapper">
-          <div className={`burger-menu ${isOpen ? 'open' : ''}`} onClick={toggleMenu}><span></span>
+      <div className="header__container">
+        <div className="header__burger-menu__wrapper">
+          <div className={`header__burger-menu ${isOpen ? 'open' : ''}`} onClick={toggleMenu}><span></span>
         
           </div>
         </div>

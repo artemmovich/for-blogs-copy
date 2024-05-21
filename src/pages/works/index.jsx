@@ -1,9 +1,10 @@
-import "./Works.css"
+import "./Works.scss"
 
 import WorksItemImage1 from "../../assets/img/worksitem-image1.png"
 import WorksItemImage2 from "../../assets/img/worksitem-image2.png"
 import WorksItemImage3 from "../../assets/img/worksitem-image3.png"
-import WorksItem from "components/worksItem/worksItem"
+import WorksItem from "components/WorksItem"
+
 
 const Works = () => {
    return (

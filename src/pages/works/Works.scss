@@ -1,0 +1,13 @@
+.works {
+   padding-top: 15px;
+   padding-bottom: 83px;
+
+   &__title {
+      font-size: 22px;
+      line-height: 60px;
+   }
+
+   @media (max-width: 760px) {
+      // Ваші правила для мобільних пристроїв тут
+   }
+}

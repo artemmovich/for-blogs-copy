@@ -2,7 +2,7 @@ import Facebook from "../../assets/img/fb.svg";
 import Insta from "../../assets/img/insta.svg";
 import Twitter from "../../assets/img/twitter.svg";
 import Linkedin from "../../assets/img/Linkedin.svg"
-import "./Footer.css"
+import "./Footer.scss"
 const Footer = () => {
    return (
       <footer className="footer">
