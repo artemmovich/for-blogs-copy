@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import "./header.scss"
+import "./index.scss"
 import React, { useEffect, useState } from 'react'
 
 

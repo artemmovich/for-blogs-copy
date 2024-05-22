@@ -1,5 +1,5 @@
 
-import "./WorksBig.scss"
+import "./index.scss"
 
 
 import WorksItemImage1 from "../../assets/img/worksitem-image1.png"

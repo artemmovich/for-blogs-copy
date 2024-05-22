@@ -1,5 +1,5 @@
-import "./intro.scss"
-import myImage from '../../assets/img/intro-image.png';
+import "./index.scss"
+import mainImage from '../../assets/img/intro-image.png';
 
 
 const Intro = () => {
@@ -14,7 +14,7 @@ const Intro = () => {
 
                </div>
 
-               <img src={myImage} alt="" />
+               <img src={mainImage} alt="" />
             </div>
 
          </div>

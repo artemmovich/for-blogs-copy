@@ -1,4 +1,4 @@
-import "../BlogPost/style.scss"
+import "../BlogPost/index.scss"
 const BlogPost = ({ title, date, design, text }) => {
    return (
       <div className="blog-post">

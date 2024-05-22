@@ -1,4 +1,4 @@
-import "./worksItem.scss"
+import "./index.scss"
 const WorksItem = ({ src, title, year, info }) => {
    return (
       <div className="works-item">

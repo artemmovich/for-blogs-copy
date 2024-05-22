@@ -2,7 +2,7 @@ import Facebook from "../../assets/img/fb.svg";
 import Insta from "../../assets/img/insta.svg";
 import Twitter from "../../assets/img/twitter.svg";
 import Linkedin from "../../assets/img/Linkedin.svg"
-import "./Footer.scss"
+import "./index.scss"
 const Footer = () => {
    return (
       <footer className="footer">
@@ -18,7 +18,7 @@ const Footer = () => {
                   <a href="/">
                      <img src={Twitter} alt="" />
                   </a>
-                  
+
                   <a href="/">
                      <img src={Linkedin} alt="" />
                   </a>

@@ -1,6 +1,6 @@
 
 
-import "./Blog.scss"
+import "./index.scss"
 
 import BlogPost from "components/BlogPost";
 

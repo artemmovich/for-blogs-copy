@@ -1,5 +1,5 @@
 import PostsCard from "components/PostsCard";
-import "./Posts.scss"
+import "./index.scss"
 import { NavLink } from "react-router-dom";
 
 const Posts = () => {

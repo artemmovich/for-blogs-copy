@@ -1,4 +1,4 @@
-import "./postsCard.scss"
+import "./index.scss"
 const PostsCard = ({ title, date, design, text }) => {
   return (
     <div className="PostsCard">
